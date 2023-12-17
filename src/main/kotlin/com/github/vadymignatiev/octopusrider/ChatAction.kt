@@ -5,8 +5,8 @@ import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 
 class ChatAction : AnAction("Chat Action") {
-    override fun actionPerformed(e: AnActionEvent) {
-        val chatWindow = ChatWindow()
-        chatWindow.isVisible = true
+    override fun actionPerformed(event: AnActionEvent) {
+        val presenter = ChatPresenter()
+        presenter.window.isVisible = true
     }
 }
