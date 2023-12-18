@@ -7,7 +7,7 @@ rootProject.name = "OctopusRider"
 dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
-            library("openai-client", "com.aallam.openai:openai-client:3.6.1")
+            library("openai-client", "com.aallam.openai:openai-client:3.6.2")
             library("coroutines", "org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.7.2")
 //            library("ktor-core", "io.ktor:ktor-client-core:2.3.7")
 //            library("ktor-cio", "io.ktor:ktor-client-cio:2.3.7")
