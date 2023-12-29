@@ -11,7 +11,7 @@ dependencyResolutionManagement {
             library("coroutines", "org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.7.2")
 //            library("ktor-core", "io.ktor:ktor-client-core:2.3.7")
 //            library("ktor-cio", "io.ktor:ktor-client-cio:2.3.7")
-            library("slf4j-api", "org.slf4j:slf4j-api:1.7.35")
+            library("slf4j-api", "org.slf4j:slf4j-api:2.0.10")
             library("slf4j-simple", "org.slf4j:slf4j-simple:1.7.35")
         }
     }
